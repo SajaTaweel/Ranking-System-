@@ -3,6 +3,7 @@ from logger import logger
 from extract import extract
 from feature_engineering import preprocess_data
 from training_lstm import train_lstm
+import uvicorn
 
 
 with open('config.yaml', 'r') as file:
@@ -25,5 +26,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
-
+   uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True)
