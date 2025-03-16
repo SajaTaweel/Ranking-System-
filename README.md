@@ -24,7 +24,7 @@ This dataset contains the following files:
 
 ### Clone the Repository
 ```bash
-git clone https://github.com//RankingSystem.git
+git clone 
 cd RankingSystem
 ```
 
