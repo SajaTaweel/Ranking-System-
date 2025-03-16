@@ -24,8 +24,8 @@ This dataset contains the following files:
 
 ### Clone the Repository
 ```bash
-git clone 
-cd RankingSystem
+git clone https://github.com/SajaTaweel/Ranking-System-
+cd Ranking-System-
 ```
 
 ### Setting up the Environment
@@ -38,10 +38,6 @@ python -m venv .venv
 On Windows:
 ```bash
 .\.venv\Scripts\activate
-```
-On macOS/Linux:
-```bash
-source .venv/bin/activate
 ```
 
 #### Install Required Dependencies:
@@ -101,21 +97,4 @@ WORKDIR /app
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-## Contribution
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m 'Add feature'
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Open a pull request.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
