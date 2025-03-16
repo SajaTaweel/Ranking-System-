@@ -1,0 +1,23 @@
+dataset: "data/news.csv"
+
+remove_col:
+  - date
+  - neg
+  - neu
+  - pos
+  - compound
+
+model:
+  input_dim: 384
+  batch_size: 16
+  learning_rate: 0.001
+  num_epochs: 10
+  hidden_dim: 128
+  num_layers: 2
+  test_size: 0.2
+  random_state: 42
+
+model_path: "models/lstm_model.pth"
+experiment_name: "LSTM Sentiment Analysis"
+positive_class: "Positive class"
+negative_class: "Negative class"

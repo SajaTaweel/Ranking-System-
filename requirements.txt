@@ -1,0 +1,6 @@
+pandas
+pyyaml
+nltk
+python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab')"
+pip install transformers torch sentence-transformers
+mlflow
